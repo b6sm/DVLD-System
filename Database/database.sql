@@ -365,7 +365,7 @@ GO
 SET IDENTITY_INSERT [dbo].[Users] ON
 GO
 INSERT INTO [dbo].[Users] ([UserID],[PersonID],[UserName],[Password],[IsActive])
-VALUES (1, 1, N'admin', N'admin123', 1)
+VALUES (1, 1, N'admin', N'240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9', 1)
 GO
 SET IDENTITY_INSERT [dbo].[Users] OFF
 GO
