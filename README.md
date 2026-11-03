@@ -24,3 +24,7 @@ Driving & Vehicle License Department management system built with C# WinForms an
 
 ## Notes
 All data in the database script is fake and for testing only.
+
+## Credits
+- Icons by [Icons8](https://icons8.com)
+- Some icons are from [Flaticon](https://www.flaticon.com); credit to their respective authors.
