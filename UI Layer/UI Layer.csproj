@@ -88,10 +88,10 @@
     <Compile Include="Users\frmCurrentUserInformation.Designer.cs">
       <DependentUpon>frmCurrentUserInformation.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmDetainLicense.cs">
+    <Compile Include="Licenses\Detain Licenses\frmDetainLicense.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmDetainLicense.Designer.cs">
+    <Compile Include="Licenses\Detain Licenses\frmDetainLicense.Designer.cs">
       <DependentUpon>frmDetainLicense.cs</DependentUpon>
     </Compile>
     <Compile Include="Tests\Test Types\frmEditTestType.cs">
@@ -112,22 +112,22 @@
     <Compile Include="Applications\International licenses\frmInterNationalDrivingLicenseApplication.Designer.cs">
       <DependentUpon>frmInterNationalDrivingLicenseApplication.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmInternationalLicenseInfo.cs">
+    <Compile Include="Licenses\International Licenses\frmInternationalLicenseInfo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmInternationalLicenseInfo.Designer.cs">
+    <Compile Include="Licenses\International Licenses\frmInternationalLicenseInfo.Designer.cs">
       <DependentUpon>frmInternationalLicenseInfo.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmIssueDrivingLicenseForTheFirstTime.cs">
+    <Compile Include="Licenses\Local Licenses\frmIssueDrivingLicenseForTheFirstTime.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmIssueDrivingLicenseForTheFirstTime.Designer.cs">
+    <Compile Include="Licenses\Local Licenses\frmIssueDrivingLicenseForTheFirstTime.Designer.cs">
       <DependentUpon>frmIssueDrivingLicenseForTheFirstTime.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmLicenseInfo.cs">
+    <Compile Include="Licenses\Local Licenses\frmLicenseInfo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmLicenseInfo.Designer.cs">
+    <Compile Include="Licenses\Local Licenses\frmLicenseInfo.Designer.cs">
       <DependentUpon>frmLicenseInfo.cs</DependentUpon>
     </Compile>
     <Compile Include="Applications\Local Driving License\frmLocaldrivingLicenseApplication.cs">
@@ -226,10 +226,10 @@
     <Compile Include="Tests\frmScheduleTest.Designer.cs">
       <DependentUpon>frmScheduleTest.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmShowPersonLicenseHistory.cs">
+    <Compile Include="Licenses\frmShowPersonLicenseHistory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmShowPersonLicenseHistory.Designer.cs">
+    <Compile Include="Licenses\frmShowPersonLicenseHistory.Designer.cs">
       <DependentUpon>frmShowPersonLicenseHistory.cs</DependentUpon>
     </Compile>
     <Compile Include="Tests\frmTakeTest.cs">
@@ -268,10 +268,10 @@
     <Compile Include="Applications\Renew Local License\UCApplicationNewLicenseInfo.Designer.cs">
       <DependentUpon>UCApplicationNewLicenseInfo.cs</DependentUpon>
     </Compile>
-    <Compile Include="UcDetain License.cs">
+    <Compile Include="Licenses\Detain Licenses\UcDetain License.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UcDetain License.Designer.cs">
+    <Compile Include="Licenses\Detain Licenses\UcDetain License.Designer.cs">
       <DependentUpon>UcDetain License.cs</DependentUpon>
     </Compile>
     <Compile Include="Applications\Rlease Detained License\UcDetainLicenseInfo.cs">
@@ -280,16 +280,16 @@
     <Compile Include="Applications\Rlease Detained License\UcDetainLicenseInfo.Designer.cs">
       <DependentUpon>UcDetainLicenseInfo.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCDriverInternationalLicenseInfo.cs">
+    <Compile Include="Licenses\International Licenses\UCDriverInternationalLicenseInfo.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCDriverInternationalLicenseInfo.Designer.cs">
+    <Compile Include="Licenses\International Licenses\UCDriverInternationalLicenseInfo.Designer.cs">
       <DependentUpon>UCDriverInternationalLicenseInfo.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCDriverLicenseInfo.cs">
+    <Compile Include="Licenses\Local Licenses\Controls\UCDriverLicenseInfo.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCDriverLicenseInfo.Designer.cs">
+    <Compile Include="Licenses\Local Licenses\Controls\UCDriverLicenseInfo.Designer.cs">
       <DependentUpon>UCDriverLicenseInfo.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
@@ -318,10 +318,10 @@
     <Compile Include="People\Controls\UCFilter.Designer.cs">
       <DependentUpon>UCFilter.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCFilterByLicenseID.cs">
+    <Compile Include="Licenses\Local Licenses\Controls\UCFilterByLicenseID.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCFilterByLicenseID.Designer.cs">
+    <Compile Include="Licenses\Local Licenses\Controls\UCFilterByLicenseID.Designer.cs">
       <DependentUpon>UCFilterByLicenseID.cs</DependentUpon>
     </Compile>
     <Compile Include="Users\Controls\UCLoginInformation.cs">
@@ -363,7 +363,7 @@
     <EmbeddedResource Include="Users\frmCurrentUserInformation.resx">
       <DependentUpon>frmCurrentUserInformation.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmDetainLicense.resx">
+    <EmbeddedResource Include="Licenses\Detain Licenses\frmDetainLicense.resx">
       <DependentUpon>frmDetainLicense.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tests\Test Types\frmEditTestType.resx">
@@ -375,13 +375,13 @@
     <EmbeddedResource Include="Applications\International licenses\frmInterNationalDrivingLicenseApplication.resx">
       <DependentUpon>frmInterNationalDrivingLicenseApplication.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmInternationalLicenseInfo.resx">
+    <EmbeddedResource Include="Licenses\International Licenses\frmInternationalLicenseInfo.resx">
       <DependentUpon>frmInternationalLicenseInfo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmIssueDrivingLicenseForTheFirstTime.resx">
+    <EmbeddedResource Include="Licenses\Local Licenses\frmIssueDrivingLicenseForTheFirstTime.resx">
       <DependentUpon>frmIssueDrivingLicenseForTheFirstTime.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmLicenseInfo.resx">
+    <EmbeddedResource Include="Licenses\Local Licenses\frmLicenseInfo.resx">
       <DependentUpon>frmLicenseInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Applications\Local Driving License\frmLocaldrivingLicenseApplication.resx">
@@ -432,7 +432,7 @@
     <EmbeddedResource Include="Tests\frmScheduleTest.resx">
       <DependentUpon>frmScheduleTest.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmShowPersonLicenseHistory.resx">
+    <EmbeddedResource Include="Licenses\frmShowPersonLicenseHistory.resx">
       <DependentUpon>frmShowPersonLicenseHistory.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tests\frmTakeTest.resx">
@@ -453,16 +453,16 @@
     <EmbeddedResource Include="Applications\Renew Local License\UCApplicationNewLicenseInfo.resx">
       <DependentUpon>UCApplicationNewLicenseInfo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UcDetain License.resx">
+    <EmbeddedResource Include="Licenses\Detain Licenses\UcDetain License.resx">
       <DependentUpon>UcDetain License.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Applications\Rlease Detained License\UcDetainLicenseInfo.resx">
       <DependentUpon>UcDetainLicenseInfo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCDriverInternationalLicenseInfo.resx">
+    <EmbeddedResource Include="Licenses\International Licenses\UCDriverInternationalLicenseInfo.resx">
       <DependentUpon>UCDriverInternationalLicenseInfo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCDriverLicenseInfo.resx">
+    <EmbeddedResource Include="Licenses\Local Licenses\Controls\UCDriverLicenseInfo.resx">
       <DependentUpon>UCDriverLicenseInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
@@ -487,7 +487,7 @@
     <EmbeddedResource Include="People\Controls\UCFilter.resx">
       <DependentUpon>UCFilter.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCFilterByLicenseID.resx">
+    <EmbeddedResource Include="Licenses\Local Licenses\Controls\UCFilterByLicenseID.resx">
       <DependentUpon>UCFilterByLicenseID.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Users\Controls\UCLoginInformation.resx">
