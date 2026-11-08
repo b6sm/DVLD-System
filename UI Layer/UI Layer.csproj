@@ -57,7 +57,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormMain.cs" />
+    <Compile Include="Global Classes\FormMain.cs" />
     <Compile Include="People\frmAddEditPersonInfo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,10 +70,10 @@
     <Compile Include="Users\frmAddNewUser.Designer.cs">
       <DependentUpon>frmAddNewUser.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmBaseForm.cs">
+    <Compile Include="Global Classes\frmBaseForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmBaseForm.Designer.cs">
+    <Compile Include="Global Classes\frmBaseForm.Designer.cs">
       <DependentUpon>frmBaseForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Users\frmChangeUserPassword.cs">
@@ -354,7 +354,7 @@
     <EmbeddedResource Include="Users\frmAddNewUser.resx">
       <DependentUpon>frmAddNewUser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmBaseForm.resx">
+    <EmbeddedResource Include="Global Classes\frmBaseForm.resx">
       <DependentUpon>frmBaseForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Users\frmChangeUserPassword.resx">
