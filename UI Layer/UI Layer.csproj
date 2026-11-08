@@ -94,10 +94,10 @@
     <Compile Include="frmDetainLicense.Designer.cs">
       <DependentUpon>frmDetainLicense.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmEditTestType.cs">
+    <Compile Include="Tests\Test Types\frmEditTestType.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmEditTestType.Designer.cs">
+    <Compile Include="Tests\Test Types\frmEditTestType.Designer.cs">
       <DependentUpon>frmEditTestType.cs</DependentUpon>
     </Compile>
     <Compile Include="frmEditeApplicationType.cs">
@@ -148,10 +148,10 @@
     <Compile Include="Login\frmLoginScreen.Designer.cs">
       <DependentUpon>frmLoginScreen.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmManageTestTypes.cs">
+    <Compile Include="Tests\Test Types\frmManageTestTypes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmManageTestTypes.Designer.cs">
+    <Compile Include="Tests\Test Types\frmManageTestTypes.Designer.cs">
       <DependentUpon>frmManageTestTypes.cs</DependentUpon>
     </Compile>
     <Compile Include="frmManageApplicationTypes.cs">
@@ -220,10 +220,10 @@
     <Compile Include="frmReplacementForDamagedLicense.Designer.cs">
       <DependentUpon>frmReplacementForDamagedLicense.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmScheduleTest.cs">
+    <Compile Include="Tests\frmScheduleTest.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmScheduleTest.Designer.cs">
+    <Compile Include="Tests\frmScheduleTest.Designer.cs">
       <DependentUpon>frmScheduleTest.cs</DependentUpon>
     </Compile>
     <Compile Include="frmShowPersonLicenseHistory.cs">
@@ -232,16 +232,16 @@
     <Compile Include="frmShowPersonLicenseHistory.Designer.cs">
       <DependentUpon>frmShowPersonLicenseHistory.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmTakeTest.cs">
+    <Compile Include="Tests\frmTakeTest.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmTakeTest.Designer.cs">
+    <Compile Include="Tests\frmTakeTest.Designer.cs">
       <DependentUpon>frmTakeTest.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmTestsAppointments.cs">
+    <Compile Include="Tests\frmTestsAppointments.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmTestsAppointments.Designer.cs">
+    <Compile Include="Tests\frmTestsAppointments.Designer.cs">
       <DependentUpon>frmTestsAppointments.cs</DependentUpon>
     </Compile>
     <Compile Include="UCApplicationIBasicnfo.cs">
@@ -336,16 +336,16 @@
     <Compile Include="People\Controls\UCPerson info.Designer.cs">
       <DependentUpon>UCPerson info.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCScheduleTestInfo.cs">
+    <Compile Include="Tests\Control\UCScheduleTestInfo.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCScheduleTestInfo.Designer.cs">
+    <Compile Include="Tests\Control\UCScheduleTestInfo.Designer.cs">
       <DependentUpon>UCScheduleTestInfo.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCScheduleTests.cs">
+    <Compile Include="Tests\Control\UCScheduleTests.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCScheduleTests.Designer.cs">
+    <Compile Include="Tests\Control\UCScheduleTests.Designer.cs">
       <DependentUpon>UCScheduleTests.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="People\frmAddEditPersonInfo.resx">
@@ -366,7 +366,7 @@
     <EmbeddedResource Include="frmDetainLicense.resx">
       <DependentUpon>frmDetainLicense.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmEditTestType.resx">
+    <EmbeddedResource Include="Tests\Test Types\frmEditTestType.resx">
       <DependentUpon>frmEditTestType.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmEditeApplicationType.resx">
@@ -393,7 +393,7 @@
     <EmbeddedResource Include="Login\frmLoginScreen.resx">
       <DependentUpon>frmLoginScreen.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmManageTestTypes.resx">
+    <EmbeddedResource Include="Tests\Test Types\frmManageTestTypes.resx">
       <DependentUpon>frmManageTestTypes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmManageApplicationTypes.resx">
@@ -429,16 +429,16 @@
     <EmbeddedResource Include="frmReplacementForDamagedLicense.resx">
       <DependentUpon>frmReplacementForDamagedLicense.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmScheduleTest.resx">
+    <EmbeddedResource Include="Tests\frmScheduleTest.resx">
       <DependentUpon>frmScheduleTest.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmShowPersonLicenseHistory.resx">
       <DependentUpon>frmShowPersonLicenseHistory.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmTakeTest.resx">
+    <EmbeddedResource Include="Tests\frmTakeTest.resx">
       <DependentUpon>frmTakeTest.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmTestsAppointments.resx">
+    <EmbeddedResource Include="Tests\frmTestsAppointments.resx">
       <DependentUpon>frmTestsAppointments.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCApplicationIBasicnfo.resx">
@@ -496,10 +496,10 @@
     <EmbeddedResource Include="People\Controls\UCPerson info.resx">
       <DependentUpon>UCPerson info.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCScheduleTestInfo.resx">
+    <EmbeddedResource Include="Tests\Control\UCScheduleTestInfo.resx">
       <DependentUpon>UCScheduleTestInfo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCScheduleTests.resx">
+    <EmbeddedResource Include="Tests\Control\UCScheduleTests.resx">
       <DependentUpon>UCScheduleTests.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.manifest" />
