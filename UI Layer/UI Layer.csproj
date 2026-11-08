@@ -64,10 +64,10 @@
     <Compile Include="People\frmAddEditPersonInfo.Designer.cs">
       <DependentUpon>frmAddEditPersonInfo.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmAddNewUser.cs">
+    <Compile Include="Users\frmAddNewUser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmAddNewUser.Designer.cs">
+    <Compile Include="Users\frmAddNewUser.Designer.cs">
       <DependentUpon>frmAddNewUser.cs</DependentUpon>
     </Compile>
     <Compile Include="frmBaseForm.cs">
@@ -76,16 +76,16 @@
     <Compile Include="frmBaseForm.Designer.cs">
       <DependentUpon>frmBaseForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmChangeUserPassword.cs">
+    <Compile Include="Users\frmChangeUserPassword.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmChangeUserPassword.Designer.cs">
+    <Compile Include="Users\frmChangeUserPassword.Designer.cs">
       <DependentUpon>frmChangeUserPassword.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmCurrentUserInformation.cs">
+    <Compile Include="Users\frmCurrentUserInformation.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCurrentUserInformation.Designer.cs">
+    <Compile Include="Users\frmCurrentUserInformation.Designer.cs">
       <DependentUpon>frmCurrentUserInformation.cs</DependentUpon>
     </Compile>
     <Compile Include="frmDetainLicense.cs">
@@ -142,10 +142,10 @@
     <Compile Include="frmLocalDrivingLicenseApplicationInfo.Designer.cs">
       <DependentUpon>frmLocalDrivingLicenseApplicationInfo.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmLoginScreen.cs">
+    <Compile Include="Login\frmLoginScreen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmLoginScreen.Designer.cs">
+    <Compile Include="Login\frmLoginScreen.Designer.cs">
       <DependentUpon>frmLoginScreen.cs</DependentUpon>
     </Compile>
     <Compile Include="frmManageTestTypes.cs">
@@ -184,10 +184,10 @@
     <Compile Include="People\frmManagePeople.Designer.cs">
       <DependentUpon>frmManagePeople.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmManageUsers.cs">
+    <Compile Include="Users\frmManageUsers.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmManageUsers.Designer.cs">
+    <Compile Include="Users\frmManageUsers.Designer.cs">
       <DependentUpon>frmManageUsers.cs</DependentUpon>
     </Compile>
     <Compile Include="frmNewLocalDrivingLicenseApplication.cs">
@@ -324,10 +324,10 @@
     <Compile Include="UCFilterByLicenseID.Designer.cs">
       <DependentUpon>UCFilterByLicenseID.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCLoginInformation.cs">
+    <Compile Include="Users\Controls\UCLoginInformation.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCLoginInformation.Designer.cs">
+    <Compile Include="Users\Controls\UCLoginInformation.Designer.cs">
       <DependentUpon>UCLoginInformation.cs</DependentUpon>
     </Compile>
     <Compile Include="People\Controls\UCPerson info.cs">
@@ -351,16 +351,16 @@
     <EmbeddedResource Include="People\frmAddEditPersonInfo.resx">
       <DependentUpon>frmAddEditPersonInfo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmAddNewUser.resx">
+    <EmbeddedResource Include="Users\frmAddNewUser.resx">
       <DependentUpon>frmAddNewUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmBaseForm.resx">
       <DependentUpon>frmBaseForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmChangeUserPassword.resx">
+    <EmbeddedResource Include="Users\frmChangeUserPassword.resx">
       <DependentUpon>frmChangeUserPassword.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmCurrentUserInformation.resx">
+    <EmbeddedResource Include="Users\frmCurrentUserInformation.resx">
       <DependentUpon>frmCurrentUserInformation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmDetainLicense.resx">
@@ -390,7 +390,7 @@
     <EmbeddedResource Include="frmLocalDrivingLicenseApplicationInfo.resx">
       <DependentUpon>frmLocalDrivingLicenseApplicationInfo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmLoginScreen.resx">
+    <EmbeddedResource Include="Login\frmLoginScreen.resx">
       <DependentUpon>frmLoginScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmManageTestTypes.resx">
@@ -411,7 +411,7 @@
     <EmbeddedResource Include="People\frmManagePeople.resx">
       <DependentUpon>frmManagePeople.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmManageUsers.resx">
+    <EmbeddedResource Include="Users\frmManageUsers.resx">
       <DependentUpon>frmManageUsers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmNewLocalDrivingLicenseApplication.resx">
@@ -490,7 +490,7 @@
     <EmbeddedResource Include="UCFilterByLicenseID.resx">
       <DependentUpon>UCFilterByLicenseID.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCLoginInformation.resx">
+    <EmbeddedResource Include="Users\Controls\UCLoginInformation.resx">
       <DependentUpon>UCLoginInformation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="People\Controls\UCPerson info.resx">
