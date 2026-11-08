@@ -166,10 +166,10 @@
     <Compile Include="Applications\Rlease Detained License\frmManageDetainedLicense.Designer.cs">
       <DependentUpon>frmManageDetainedLicense.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmManageDrivers.cs">
+    <Compile Include="Drivers\frmManageDrivers.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmManageDrivers.Designer.cs">
+    <Compile Include="Drivers\frmManageDrivers.Designer.cs">
       <DependentUpon>frmManageDrivers.cs</DependentUpon>
     </Compile>
     <Compile Include="Applications\International licenses\frmManageInternationalLicenseApplications.cs">
@@ -402,7 +402,7 @@
     <EmbeddedResource Include="Applications\Rlease Detained License\frmManageDetainedLicense.resx">
       <DependentUpon>frmManageDetainedLicense.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmManageDrivers.resx">
+    <EmbeddedResource Include="Drivers\frmManageDrivers.resx">
       <DependentUpon>frmManageDrivers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Applications\International licenses\frmManageInternationalLicenseApplications.resx">
